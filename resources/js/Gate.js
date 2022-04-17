@@ -5,12 +5,12 @@ export default class Gate {
 
     baseURL() {
         // return 'http://127.0.0.1:8000/api';
-        return "http://backend.programsmagic.com/api";
+        return "https://backend.programsmagic.com/api";
     }
 
     baseURLForImg() {
         // return 'http://127.0.0.1:8000/public';
-        return "http://backend.programsmagic.com/public";
+        return "https://backend.programsmagic.com/public";
     }
 
     isAdmin() {
